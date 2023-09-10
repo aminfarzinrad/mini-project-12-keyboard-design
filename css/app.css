@@ -44,3 +44,31 @@ body{
 .space{
     width: 60%;
 }
+@media screen and (max-width:800px) {
+    .keyboard-section{
+      width: 500px;
+    }
+    .row{
+      gap: 10px;
+    }
+  
+    .btn{
+      height: 30px;
+      min-width: 30px;
+      font-size: 12px;
+    }
+    .btn:focus{
+      color: #3498db;
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width:450px) {
+    .keyboard-section{
+      width: 400px;
+    }
+    .btn{
+      height: 20px;
+      min-width: 20px;
+      font-size: 9px;
+  }
+  }
